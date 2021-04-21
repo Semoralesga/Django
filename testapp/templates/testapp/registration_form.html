@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>Registration</title>
+  </head>
+  <body>
+    <form method="POST" , enctype="multipart/form-data">
+      {% csrf_token %} {{ form.as_p}}
+      <button>Registration</button>
+    </form>
+  </body>
+</html>
